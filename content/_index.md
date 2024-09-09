@@ -17,7 +17,7 @@ Watch the video above about compilers, and how Sage works!
 |[About](docs/about)|[Install](installs/install)|[Playground](playgrounds/playground)|[Documentation](docs/)| -->
 
 <!-- Center the table -->
-
+<!-- 
 <table>
   <tr>
     <td><a href="docs/about">About</a></td>
@@ -25,7 +25,7 @@ Watch the video above about compilers, and how Sage works!
     <td><a href="playgrounds/playground">Playground</a></td>
     <td><a href="docs/">Documentation</a></td>
   </tr>
-</table>
+</table> -->
 
 <!-- {{< alert "lightbulb" >}}
 Sage is a compiled language for anything from OS-dev to the web!
