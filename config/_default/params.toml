@@ -14,9 +14,6 @@ enableCodeCopy = false
 
 replyByEmail = false
 
-favicon="sage3.png"
-socialImage = "sage3.png"
-
 # mainSections = ["section1", "section2"]
 # robots = ""
 
@@ -69,7 +66,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = false
-  showDraftLabel = true
+  showDraftLabel = false
   showEdit = false
   # editURL = "https://github.com/username/repo/"
   editAppendPath = true

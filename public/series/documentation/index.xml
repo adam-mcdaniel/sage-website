@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sage Programming Language</title>
-    <link>http://localhost:1313/sage-website/</link>
-    <description>Recent content on Sage Programming Language</description>
+    <title>Documentation on Sage Programming Language</title>
+    <link>http://localhost:1313/sage-website/series/documentation/</link>
+    <description>Recent content in Documentation on Sage Programming Language</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (🌱The Sage Programming Language🪴)</managingEditor>
     <webMaster>youremail@example.com (🌱The Sage Programming Language🪴)</webMaster>
     <copyright>© 2024 🌱The Sage Programming Language🪴</copyright>
-    <lastBuildDate>Mon, 09 Sep 2024 15:50:33 -0400</lastBuildDate><atom:link href="http://localhost:1313/sage-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Sep 2024 15:50:33 -0400</lastBuildDate><atom:link href="http://localhost:1313/sage-website/series/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Variables And Mutability</title>
       <link>http://localhost:1313/sage-website/docs/variables/</link>
@@ -36,26 +36,6 @@
       <pubDate>Sun, 08 Sep 2024 21:37:06 -0400</pubDate>
       <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
       <guid>http://localhost:1313/sage-website/docs/about/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Install The Sage Programming Language</title>
-      <link>http://localhost:1313/sage-website/installs/install/</link>
-      <pubDate>Sun, 08 Sep 2024 21:01:05 -0400</pubDate>
-      <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
-      <guid>http://localhost:1313/sage-website/installs/install/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Experiment With Sage In The Web</title>
-      <link>http://localhost:1313/sage-website/playgrounds/playground/</link>
-      <pubDate>Sun, 08 Sep 2024 20:40:07 -0400</pubDate>
-      <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
-      <guid>http://localhost:1313/sage-website/playgrounds/playground/</guid>
       <description></description>
       
     </item>
