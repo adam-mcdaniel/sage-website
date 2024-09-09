@@ -1,5 +1,4 @@
 # .github/workflows/gh-pages.yml
-
 name: GitHub Pages
 
 on:
@@ -25,7 +24,7 @@ jobs:
           hugo-version: "latest"
 
       - name: Build
-        run: git clone https://github.com/adam-mcdaniel/sage; cp -R sage/docs public/sage; hugo --minify
+        run: hugo --minify; git clone https://github.com/adam-mcdaniel/sage; cp -R sage/docs public/sage;
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
