@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Playgrounds on 🌿🌱The Sage Programming Language🪴🍃</title>
-    <link>http://localhost:1313/sage-website/playgrounds/</link>
+    <link>https://adam-mcdaniel.github.io/sage-website/playgrounds/</link>
     <description>Recent content in Playgrounds on 🌿🌱The Sage Programming Language🪴🍃</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (Sage Programming Language)</managingEditor>
     <webMaster>youremail@example.com (Sage Programming Language)</webMaster>
     <copyright>© 2024 Sage Programming Language</copyright>
-    <lastBuildDate>Sun, 08 Sep 2024 20:40:07 -0400</lastBuildDate><atom:link href="http://localhost:1313/sage-website/playgrounds/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Sep 2024 20:40:07 -0400</lastBuildDate><atom:link href="https://adam-mcdaniel.github.io/sage-website/playgrounds/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Experiment With Sage In The Web</title>
-      <link>http://localhost:1313/sage-website/playgrounds/playground/</link>
+      <link>https://adam-mcdaniel.github.io/sage-website/playgrounds/playground/</link>
       <pubDate>Sun, 08 Sep 2024 20:40:07 -0400</pubDate>
       <author>youremail@example.com (Sage Programming Language)</author>
-      <guid>http://localhost:1313/sage-website/playgrounds/playground/</guid>
+      <guid>https://adam-mcdaniel.github.io/sage-website/playgrounds/playground/</guid>
       <description></description>
       
     </item>

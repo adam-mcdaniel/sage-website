@@ -13,7 +13,7 @@ Once you've installed Rust, and you can use the `cargo` package manager, run the
 ### Install With Cargo
 
 ```bash
-$ cargo install --git https://github.com/adam-mcdaniel/main
+$ cargo install --git https://github.com/adam-mcdaniel/sage
 ```
 
 ### Clone And Build
