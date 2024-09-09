@@ -3,3 +3,5 @@ git clone https://github.com/adam-mcdaniel/sage;
 cd sage;
 use build-docs.dunesh;
 cp -R docs ../public/sage;
+cd ..;
+cp -R public docs;
