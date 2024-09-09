@@ -1,4 +1,4 @@
-baseURL = 'https://adam-mcdaniel.github.io/sage-website/'
 # baseURL = 'https://adam-mcdaniel.github.io/sage-website/'
+baseURL = 'https://adam-mcdaniel.github.io/sage-website/'
 languageCode = 'en-us'
 title = 'Sage Programming Language'
