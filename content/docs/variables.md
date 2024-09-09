@@ -69,6 +69,7 @@ let a = 5;
 ```
 {{< alert >}}
 **Error:**<br/>
-`1 │ println(a);`<br/>
+`2 │ println(a);`<br/>
 LIR error: symbol a not defined
 {{< /alert >}}
+

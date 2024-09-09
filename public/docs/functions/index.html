@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Data Types &middot; Sage Programming Language</title>
-  <meta name="title" content="Data Types &middot; Sage Programming Language" />
+  <title>Functions &middot; Sage Programming Language</title>
+  <meta name="title" content="Functions &middot; Sage Programming Language" />
   
   
   
   
   
-  <link rel="canonical" href="http://localhost:1313/sage-website/docs/data-types/" />
+  <link rel="canonical" href="http://localhost:1313/sage-website/docs/functions/" />
   
   
   
@@ -63,15 +63,15 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/sage-website/docs/data-types/">
+  <meta property="og:url" content="http://localhost:1313/sage-website/docs/functions/">
   <meta property="og:site_name" content="Sage Programming Language">
-  <meta property="og:title" content="Data Types">
+  <meta property="og:title" content="Functions">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
-    <meta property="article:published_time" content="2024-09-09T16:40:07-04:00">
-    <meta property="article:modified_time" content="2024-09-09T16:40:07-04:00">
-      <meta property="og:see_also" content="http://localhost:1313/sage-website/docs/functions/">
+    <meta property="article:published_time" content="2024-09-09T17:03:51-04:00">
+    <meta property="article:modified_time" content="2024-09-09T17:03:51-04:00">
+      <meta property="og:see_also" content="http://localhost:1313/sage-website/docs/data-types/">
       <meta property="og:see_also" content="http://localhost:1313/sage-website/docs/constants/">
       <meta property="og:see_also" content="http://localhost:1313/sage-website/docs/variables/">
       <meta property="og:see_also" content="http://localhost:1313/sage-website/docs/getting-started/">
@@ -79,7 +79,7 @@
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Data Types">
+  <meta name="twitter:title" content="Functions">
 
   
   <script type="application/ld+json">
@@ -87,26 +87,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Documentation",
-    "name": "Data Types",
-    "headline": "Data Types",
+    "name": "Functions",
+    "headline": "Functions",
     
     
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/sage-website\/docs\/data-types\/",
+    "url" : "http:\/\/localhost:1313\/sage-website\/docs\/functions\/",
     "author" : {
       "@type": "Person",
       "name": "🌱The Sage Programming Language🪴"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-09-09T16:40:07-04:00",
-    "datePublished": "2024-09-09T16:40:07-04:00",
+    "dateCreated": "2024-09-09T17:03:51-04:00",
+    "datePublished": "2024-09-09T17:03:51-04:00",
     
-    "dateModified": "2024-09-09T16:40:07-04:00",
+    "dateModified": "2024-09-09T17:03:51-04:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "584"
+    "wordCount": "182"
   }]
   </script>
 
@@ -508,7 +508,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Data Types
+      Functions
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -553,7 +553,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-09-09T16:40:07-04:00">9 September 2024</time><span class="px-2 text-primary-500">&middot;</span><span>584 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  <time datetime="2024-09-09T17:03:51-04:00">9 September 2024</time><span class="px-2 text-primary-500">&middot;</span><span>182 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
   
 
   
@@ -643,16 +643,16 @@
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 5: This Article
+        <a href="http://localhost:1313/sage-website/docs/data-types/">
+            Part 5: Data Types
+        </a>
     </div>
     
     
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/sage-website/docs/functions/">
-            Part 6: Functions
-        </a>
+        Part 6: This Article
     </div>
     
     
@@ -663,7 +663,13 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <p>In Sage, functions are declared with the <code>fun</code> keyword.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="n">fun</span><span class="w"> </span><span class="n">add</span><span class="p">(</span><span class="n">a</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">b</span>: <span class="nc">Int</span><span class="p">)</span>: <span class="nc">Int</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="n">add</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">));</span><span class="w">
+</span></span></span></code></pre></div>
   
 
 
@@ -681,8 +687,8 @@
     
 
   <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
-
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
   </span>
 
 
@@ -691,56 +697,133 @@
   <span
     
       class="dark:text-neutral-300"
-    ><strong>About the typesystem:</strong> Sage&rsquo;s type system is based on <a href="https://en.wikipedia.org/wiki/Generalized_algebraic_data_type" target="_blank">parameterized algebraic data types</a>. This gives Sage a much more expressive set of primitives than languages like C!</span>
+    ><strong>Output:</strong><br/>
+5<br/></span>
 </div>
 
-<p>Sage&rsquo;s type system is built on structural type equality, meaning that two types are equal if they have the same structure. This allows for more flexible type definitions, and makes it easier to work with complex data structures.</p>
 
 
-<h2 class="relative group">Primitive Types 
-    <div id="primitive-types" class="anchor"></div>
+<h3 class="relative group">Alternate Syntax 
+    <div id="alternate-syntax" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#primitive-types" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#alternate-syntax" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Functions may also be defined with a single expression and the <code>=</code> operator.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="n">fun</span><span class="w"> </span><span class="n">add</span><span class="p">(</span><span class="n">a</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">b</span>: <span class="nc">Int</span><span class="p">)</span>: <span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="n">add</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">));</span><span class="w">
+</span></span></span></code></pre></div>
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Output:</strong><br/>
+5<br/></span>
+</div>
+
+
+
+<h2 class="relative group">Function Types 
+    <div id="function-types" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#function-types" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>The following are the primitive types in Sage:</p>
-<ul>
-<li><em><code>Int</code></em>: an integer, the word size of the target architecture. If you&rsquo;re compiling to a 64-bit target, <code>Int</code> is 64 bits.</li>
-<li><em><code>Cell</code></em>: a raw word-sized value, used for reinterpreting memory. To reinterpret a <code>Float</code> as an <code>Int</code>, you can cast it to a <code>Cell</code> first: <code>5.0 as Cell as Int</code>.</li>
-<li><em><code>Float</code></em>: a floating point number, the word size of the target architecture. This is a <code>double</code> for 64-bit targets.</li>
-<li><em><code>Bool</code></em>: a boolean value, either <code>True</code> or <code>False</code>.</li>
-<li><em><code>Char</code></em>: a word-sized character.</li>
-<li><em><code>[T * N]</code></em>: an array of <code>N</code> elements of type <code>T</code>.</li>
-<li><em><code>&amp;T</code></em>: an immutable pointer to a value of type <code>T</code>.</li>
-<li><em><code>&amp;mut T</code></em>: a mutable pointer to a value of type <code>T</code>.</li>
-<li><em><code>fun(T1, T2, ..., Tn) -&gt; T</code></em>: a function that takes arguments of types <code>T1</code>, <code>T2</code>, &hellip;, <code>Tn</code> and returns a value of type <code>T</code>.</li>
-</ul>
+<p>Functions can be passed as arguments to other functions. The type of a function is written as <code>fun(T1, T2, ..., Tn) -&gt; T</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="c1">// Define `f` as a function that takes two ints and
+</span></span></span><span class="line"><span class="cl"><span class="c1">// returns another int.
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Call it on the next two arguments.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">fun</span><span class="w"> </span><span class="n">test</span><span class="p">(</span><span class="n">f</span>: <span class="nc">fun</span><span class="p">(</span><span class="n">Int</span><span class="p">,</span><span class="w"> </span><span class="n">Int</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">a</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">b</span>: <span class="nc">Int</span><span class="p">)</span>: <span class="nc">Int</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// The function to pass to `test`
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">fun</span><span class="w"> </span><span class="n">add</span><span class="p">(</span><span class="n">a</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">b</span>: <span class="nc">Int</span><span class="p">)</span>: <span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Call `test` with our other function!
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">println</span><span class="p">(</span><span class="n">test</span><span class="p">(</span><span class="n">add</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">));</span><span class="w">
+</span></span></span></code></pre></div>
+  
 
 
-<h2 class="relative group">Pointers 
-    <div id="pointers" class="anchor"></div>
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Output:</strong><br/>
+5<br/></span>
+</div>
+
+
+
+<h2 class="relative group">Templates 
+    <div id="templates" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#pointers" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#templates" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>To get a pointer of a value, you can use the <code>&amp;</code> operator. To get a mutable pointer, you can use the <code>&amp;mut</code> operator.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">p</span>: <span class="kp">&amp;</span><span class="nc">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">&amp;</span><span class="n">a</span><span class="p">;</span><span class="w">
+<p>Functions may also take template parameters:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="n">fun</span><span class="w"> </span><span class="n">first</span><span class="o">&lt;</span><span class="n">A</span><span class="p">,</span><span class="w"> </span><span class="n">B</span><span class="o">&gt;</span><span class="p">(</span><span class="n">a</span>: <span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="w"> </span><span class="n">B</span><span class="p">))</span>: <span class="nc">A</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="mi">0</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">fun</span><span class="w"> </span><span class="n">second</span><span class="o">&lt;</span><span class="n">A</span><span class="p">,</span><span class="w"> </span><span class="n">B</span><span class="o">&gt;</span><span class="p">(</span><span class="n">a</span>: <span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="w"> </span><span class="n">B</span><span class="p">))</span>: <span class="nc">B</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="mi">1</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">6</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">p2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="o">*</span><span class="n">p</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">*</span><span class="n">p2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1000</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="o">*</span><span class="n">p2</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="n">first</span><span class="o">&lt;</span><span class="n">Int</span><span class="p">,</span><span class="w"> </span><span class="n">Float</span><span class="o">&gt;</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mf">3.0</span><span class="p">)));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="n">second</span><span class="o">&lt;</span><span class="n">Int</span><span class="p">,</span><span class="w"> </span><span class="n">Float</span><span class="o">&gt;</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mf">3.0</span><span class="p">)));</span><span class="w">
 </span></span></span></code></pre></div>
   
 
@@ -770,314 +853,8 @@
     
       class="dark:text-neutral-300"
     ><strong>Output:</strong><br/>
-5<br/>
-1000<br/></span>
-</div>
-
-<p>If you take a mutable reference of an immutable value, the compiler will throw an error.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="kd">let</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">p</span>: <span class="kp">&amp;</span><span class="nc">mut</span><span class="w"> </span><span class="n">Int</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w">
-</span></span></span></code></pre></div>
-  
-
-
-
-<div
-  
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
-  >
-
-  <span
-    
-      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
-    >
-
-    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
-
-  </span>
-
-
-  </span>
-
-  <span
-    
-      class="dark:text-neutral-300"
-    ><strong>Error:</strong><br/>
-<code>2 │ let p: &amp;mut Int = &amp;mut a;</code><br/>
-LIR error: invalid refer expression &amp;mut a</span>
-</div>
-
-
-
-<h2 class="relative group">Algebraic Data Types 
-    <div id="algebraic-data-types" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#algebraic-data-types" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<p>Sage supports algebraic data types, which are a way of defining complex data structures. These types are defined using the <code>type</code>, <code>struct</code>, and <code>enum</code> keywords, and can be parameterized with other types.</p>
-
-
-<h3 class="relative group">Structs 
-    <div id="structs" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#structs" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Structs are a way of defining a collection of named fields. They are defined using the <code>struct</code> keyword.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">Point</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">x</span>: <span class="nc">Int</span><span class="p">,</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">y</span>: <span class="nc">Int</span><span class="p">,</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">p</span>: <span class="nc">Point</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">x</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="mi">6</span><span class="w"> </span><span class="p">};</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="n">p</span><span class="p">);</span><span class="w">
-</span></span></span></code></pre></div>
-  
-
-
-
-<div
-  
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
-  >
-
-  <span
-    
-      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
-    >
-
-    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-  </span>
-
-
-  </span>
-
-  <span
-    
-      class="dark:text-neutral-300"
-    ><strong>Output:</strong><br/>
-{x=5, y=6}<br/></span>
-</div>
-
-
-
-<h3 class="relative group">Enums 
-    <div id="enums" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#enums" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Enums are a way of defining a type that can be one of several variants. They are defined using the <code>enum</code> keyword.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="k">enum</span> <span class="nb">Option</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nb">Some</span><span class="p">(</span><span class="n">T</span><span class="p">),</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="n">Nothing</span><span class="p">,</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">o</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Option</span><span class="o">&lt;</span><span class="n">Int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="nb">Some</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">match</span><span class="w"> </span><span class="n">o</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">of</span><span class="w"> </span><span class="nb">Some</span><span class="p">(</span><span class="n">val</span><span class="p">)</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">println</span><span class="p">(</span><span class="s">&#34;there is a value: &#34;</span><span class="p">,</span><span class="w"> </span><span class="n">val</span><span class="p">),</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">of</span><span class="w"> </span><span class="n">Nothing</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">println</span><span class="p">(</span><span class="s">&#34;there is no value&#34;</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
-</span></span></span></code></pre></div>
-  
-
-
-
-<div
-  
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
-  >
-
-  <span
-    
-      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
-    >
-
-    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-  </span>
-
-
-  </span>
-
-  <span
-    
-      class="dark:text-neutral-300"
-    ><strong>Output:</strong><br/>
-there is a value: 5<br/></span>
-</div>
-
-
-
-<h3 class="relative group">Type Aliases 
-    <div id="type-aliases" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#type-aliases" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Type aliases are a way of defining a new name for an existing type. They are defined using the <code>type</code> keyword.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="k">type</span> <span class="nc">Point</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">x</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">y</span>: <span class="nc">Int</span><span class="w"> </span><span class="p">};</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">p</span>: <span class="nc">Point</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">x</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="mi">6</span><span class="w"> </span><span class="p">};</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="n">p</span><span class="p">);</span><span class="w">
-</span></span></span></code></pre></div>
-  
-
-
-
-<div
-  
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
-  >
-
-  <span
-    
-      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
-    >
-
-    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-  </span>
-
-
-  </span>
-
-  <span
-    
-      class="dark:text-neutral-300"
-    ><strong>Output:</strong><br/>
-{x=5, y=6}<br/></span>
-</div>
-
-
-
-<h3 class="relative group">Type Parameters 
-    <div id="type-parameters" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#type-parameters" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Types can be parameterized with other types. This allows for more flexible type definitions.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="k">type</span> <span class="nc">Pair</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">U</span><span class="o">&gt;</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">first</span>: <span class="nc">T</span><span class="p">,</span><span class="w"> </span><span class="n">second</span>: <span class="nc">U</span><span class="w"> </span><span class="p">};</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">p</span>: <span class="nc">Pair</span><span class="o">&lt;</span><span class="n">Int</span><span class="p">,</span><span class="w"> </span><span class="n">Char</span><span class="o">&gt;</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">first</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="n">second</span><span class="o">=</span><span class="sc">&#39;a&#39;</span><span class="w"> </span><span class="p">};</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="n">p</span><span class="p">);</span><span class="w">
-</span></span></span></code></pre></div>
-  
-
-
-
-<div
-  
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
-  >
-
-  <span
-    
-      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
-    >
-
-    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-  </span>
-
-
-  </span>
-
-  <span
-    
-      class="dark:text-neutral-300"
-    ><strong>Output:</strong><br/>
-{first=5, second=&lsquo;a&rsquo;}<br/></span>
-</div>
-
-
-
-<h3 class="relative group">Const-Generics 
-    <div id="const-generics" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#const-generics" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<p>Sage supports const-generics, which are a way of defining types that are parameterized by constants.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">Matrix</span><span class="o">&lt;</span><span class="n">Elem</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">Rows</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">Cols</span>: <span class="nc">Int</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">data</span>: <span class="p">[[</span><span class="n">Elem</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">Cols</span><span class="p">]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">Rows</span><span class="p">],</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">m</span>: <span class="nc">Matrix</span><span class="o">&lt;</span><span class="n">Int</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="o">&gt;</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">data</span><span class="o">=</span><span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">],</span><span class="w"> </span><span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">]]</span><span class="w"> </span><span class="p">};</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="n">m</span><span class="p">);</span><span class="w">
-</span></span></span></code></pre></div>
-  
-
-
-
-<div
-  
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
-  >
-
-  <span
-    
-      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
-    >
-
-    
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-  </span>
-
-
-  </span>
-
-  <span
-    
-      class="dark:text-neutral-300"
-    ><strong>Output:</strong><br/>
-{data=[[1, 2], [3, 4]]}<br/></span>
+2<br/>
+3<br/></span>
 </div>
 
 
@@ -1136,16 +913,16 @@ there is a value: 5<br/></span>
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 5: This Article
+        <a href="http://localhost:1313/sage-website/docs/data-types/">
+            Part 5: Data Types
+        </a>
     </div>
     
     
     
     <div
         class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="http://localhost:1313/sage-website/docs/functions/">
-            Part 6: Functions
-        </a>
+        Part 6: This Article
     </div>
     
     
@@ -1166,8 +943,8 @@ there is a value: 5<br/></span>
           
         
       <script>
-        var oid = "views_docs\/data-types.md"
-        var oid_likes = "likes_docs\/data-types.md"
+        var oid = "views_docs\/functions.md"
+        var oid_likes = "likes_docs\/functions.md"
       </script>
       
       
@@ -1187,7 +964,7 @@ there is a value: 5<br/></span>
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/sage-website/docs/constants/">
+            <a class="flex group mr-3" href="/sage-website/docs/data-types/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1199,11 +976,11 @@ there is a value: 5<br/></span>
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Constants</span
+                  >Data Types</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-09-09T16:39:07-04:00">9 September 2024</time>
+                    <time datetime="2024-09-09T16:40:07-04:00">9 September 2024</time>
                   
                 </span>
               </span>
@@ -1211,28 +988,6 @@ there is a value: 5<br/></span>
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/sage-website/docs/functions/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Functions</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-09-09T17:03:51-04:00">9 September 2024</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>

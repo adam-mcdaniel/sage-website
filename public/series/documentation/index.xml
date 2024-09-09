@@ -9,7 +9,37 @@
     <managingEditor>youremail@example.com (🌱The Sage Programming Language🪴)</managingEditor>
     <webMaster>youremail@example.com (🌱The Sage Programming Language🪴)</webMaster>
     <copyright>© 2024 🌱The Sage Programming Language🪴</copyright>
-    <lastBuildDate>Mon, 09 Sep 2024 15:50:33 -0400</lastBuildDate><atom:link href="http://localhost:1313/sage-website/series/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Sep 2024 17:03:51 -0400</lastBuildDate><atom:link href="http://localhost:1313/sage-website/series/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Functions</title>
+      <link>http://localhost:1313/sage-website/docs/functions/</link>
+      <pubDate>Mon, 09 Sep 2024 17:03:51 -0400</pubDate>
+      <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
+      <guid>http://localhost:1313/sage-website/docs/functions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://localhost:1313/sage-website/docs/data-types/</link>
+      <pubDate>Mon, 09 Sep 2024 16:40:07 -0400</pubDate>
+      <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
+      <guid>http://localhost:1313/sage-website/docs/data-types/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Constants</title>
+      <link>http://localhost:1313/sage-website/docs/constants/</link>
+      <pubDate>Mon, 09 Sep 2024 16:39:07 -0400</pubDate>
+      <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
+      <guid>http://localhost:1313/sage-website/docs/constants/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Variables And Mutability</title>
       <link>http://localhost:1313/sage-website/docs/variables/</link>
