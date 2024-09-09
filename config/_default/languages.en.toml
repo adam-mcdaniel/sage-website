@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "🌿🌱The Sage Programming Language🪴🍃"
+title = "Sage Programming Language"
 
 [params]
   displayName = "EN"
@@ -15,7 +15,7 @@ title = "🌿🌱The Sage Programming Language🪴🍃"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "Sage Programming Language"
+  name = "🌱The Sage Programming Language🪴"
   email = "youremail@example.com"
   image = "sage3.png"
   imageQuality = 96
