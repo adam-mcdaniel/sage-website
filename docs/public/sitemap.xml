@@ -3,73 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/</loc>
+    <loc>http://localhost:1313/sage-website/</loc>
     <lastmod>2024-09-09T17:03:51-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/docs/functions/</loc>
+    <loc>http://localhost:1313/sage-website/docs/functions/</loc>
     <lastmod>2024-09-09T17:03:51-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/docs/data-types/</loc>
+    <loc>http://localhost:1313/sage-website/docs/data-types/</loc>
     <lastmod>2024-09-09T16:40:07-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/docs/constants/</loc>
+    <loc>http://localhost:1313/sage-website/docs/constants/</loc>
     <lastmod>2024-09-09T16:39:07-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/docs/variables/</loc>
+    <loc>http://localhost:1313/sage-website/docs/variables/</loc>
     <lastmod>2024-09-09T15:50:33-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/docs/getting-started/</loc>
+    <loc>http://localhost:1313/sage-website/docs/getting-started/</loc>
     <lastmod>2024-09-09T15:36:39-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/docs/about/</loc>
+    <loc>http://localhost:1313/sage-website/docs/about/</loc>
     <lastmod>2024-09-08T21:37:06-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/docs/</loc>
+    <loc>http://localhost:1313/sage-website/docs/</loc>
     <lastmod>2024-09-08T21:01:05-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/installs/install/</loc>
+    <loc>http://localhost:1313/sage-website/installs/install/</loc>
     <lastmod>2024-09-08T21:01:05-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/installs/</loc>
+    <loc>http://localhost:1313/sage-website/installs/</loc>
     <lastmod>2024-09-08T21:01:05-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/playgrounds/playground/</loc>
+    <loc>http://localhost:1313/sage-website/playgrounds/playground/</loc>
     <lastmod>2024-09-08T20:40:07-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://adam-mcdaniel.github.io/sage-website/playgrounds/</loc>
+    <loc>http://localhost:1313/sage-website/playgrounds/</loc>
     <lastmod>2024-09-08T20:40:07-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

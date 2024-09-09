@@ -10,7 +10,7 @@ Sage is a compiled language for anything from OS-dev to the web!
 
 {{< youtubeLite id="QdnxjYj1pS0" label="Blowfish-tools demo" >}}
 
-Watch the video above about compilers, and how Sage works!
+Watch the video above about compilers and how Sage works!
 
 <!-- |||||
 |:-:|:-:|:-:|:-:|
