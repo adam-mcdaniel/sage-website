@@ -19,8 +19,33 @@
 [[main]]
 #  pre = "circle-info"
  name = "About"
- pageRef = "docs/about"
+#  pageRef = "docs/about"
  weight = 10
+
+[[main]]
+ parent = "About"
+ name = "Overview"
+ pageRef = "docs/about"
+ weight = 13
+
+[[main]]
+ parent = "About"
+ name = "Community"
+ pageRef = "docs/community"
+ weight = 14
+
+[[main]]
+#  pre = "code"
+#  parent = "About"
+ name = "Playground"
+ pageRef = "playgrounds/playground"
+ weight = 30
+
+[[main]]
+ parent = "About"
+ name = "Examples"
+ url = "https://github.com/adam-mcdaniel/sage/tree/main/examples/frontend"
+ weight = 16
 
 [[main]]
 #  pre = "download"
@@ -29,16 +54,24 @@
  weight = 20
 
 [[main]]
-#  pre = "code"
- name = "Playground"
- pageRef = "playgrounds/playground"
- weight = 30
-
-[[main]]
-#  pre = "list"
+#  pre = "bars"
  name = "Documentation"
  pageRef = "docs/getting-started"
  weight = 40
+
+[[main]]
+ name = "  "
+ pre = "github"
+#  name = "Documentation"
+ url = "https://github.com/adam-mcdaniel/sage"
+ weight = 50
+
+[[main]]
+ name = " "
+ pre = "discord"
+#  name = "Documentation"
+ url = "https://discord.gg/2GX4Jggy6d"
+ weight = 60
 
 
 

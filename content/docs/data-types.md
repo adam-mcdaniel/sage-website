@@ -2,7 +2,7 @@
 title = 'Data Types'
 date = 2024-09-09T16:40:07-04:00
 series = ['Documentation']
-series_order = 5
+series_order = 6
 +++
 
 

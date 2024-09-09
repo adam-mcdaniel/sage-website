@@ -25,7 +25,7 @@ Sage can be used for anything from [operating systems development](https://githu
 
 ## Community
 
-Join the [Discord server](https://discord.gg/2GX4Jggy6d) to chat about Sage! Let us know if you have any thoughts or comments about the language!
+[Check out our community page](../community) to get in contact with other users and developers! Let us know if you have any thoughts or comments about the language!
 
 ## Code Examples And Syntax
 

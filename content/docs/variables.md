@@ -2,7 +2,7 @@
 title = 'Variables And Mutability'
 date = 2024-09-09T15:50:33-04:00
 series = ['Documentation']
-series_order = 3
+series_order = 4
 +++
 
 ## Let Bindings

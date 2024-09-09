@@ -2,7 +2,7 @@
 title = 'Getting Started'
 date = 2024-09-09T15:36:39-04:00
 series = ['Documentation']
-series_order = 2
+series_order = 3
 +++
 
 ## Writing And Executing A Sage Program

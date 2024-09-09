@@ -2,7 +2,7 @@
 title = 'Functions'
 date = 2024-09-09T17:03:51-04:00
 series = ['Documentation']
-series_order = 6
+series_order = 7
 +++
 
 In Sage, functions are declared with the `fun` keyword.

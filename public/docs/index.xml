@@ -61,6 +61,16 @@
     </item>
     
     <item>
+      <title>Community</title>
+      <link>http://localhost:1313/sage-website/docs/community/</link>
+      <pubDate>Sun, 08 Sep 2024 21:38:06 -0400</pubDate>
+      <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
+      <guid>http://localhost:1313/sage-website/docs/community/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>About The Sage Programming Language</title>
       <link>http://localhost:1313/sage-website/docs/about/</link>
       <pubDate>Sun, 08 Sep 2024 21:37:06 -0400</pubDate>
