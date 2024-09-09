@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["CoreOp","Error","StandardOp"],"fn":["as_float","as_int"],"struct":["CoreInterpreter","CoreProgram","StandardDevice","StandardInterpreter","StandardProgram","TestingDevice"],"trait":["Device","VirtualMachineProgram"]};

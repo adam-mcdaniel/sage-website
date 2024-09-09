@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["c"],"trait":["Architecture","CompiledTarget"]};

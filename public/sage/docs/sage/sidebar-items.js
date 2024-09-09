@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["LOGO","LOGO_WITH_COLOR","NULL"],"mod":["asm","frontend","lir","parse","side_effects","targets","vm"]};
