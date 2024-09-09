@@ -101,7 +101,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "163"
   }]
   </script>
 
@@ -615,7 +615,11 @@
 
 
 
+  
 
+
+
+  
 
 
 
@@ -632,7 +636,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-09-08T21:01:05-04:00">8 September 2024</time>
+  <time datetime="2024-09-08T21:01:05-04:00">8 September 2024</time><span class="px-2 text-primary-500">&middot;</span><span>163 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
   
 
   
@@ -679,6 +683,114 @@
 
         <div class="article-content max-w-prose mb-20">
           
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Pre-installation:</strong> You&rsquo;ll the <a href="https://www.rust-lang.org/" target="_blank">Rust programming language</a> to build the compiler from source. <strong>If you&rsquo;re on Windows</strong>, then <a href="https://visualstudio.microsoft.com/es/vs/features/cplusplus/" target="_blank">you&rsquo;ll need to download and install the MSVC toolchain</a> prior to building everything.</span>
+</div>
+
+<p>Once you&rsquo;ve installed Rust, and you can use the <code>cargo</code> package manager, run the following to install Sage.</p>
+
+
+<h3 class="relative group">Install With Cargo 
+    <div id="install-with-cargo" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#install-with-cargo" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ cargo install --git https://github.com/adam-mcdaniel/main
+</span></span></code></pre></div>
+
+<h3 class="relative group">Clone And Build 
+    <div id="clone-and-build" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#clone-and-build" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>You can also download the compiler from GitHub manually and build it.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ git clone https://github.com/adam-mcdaniel/sage
+</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> sage
+</span></span><span class="line"><span class="cl">$ <span class="c1"># Just build the compiler from source, don&#39;t install it:</span>
+</span></span><span class="line"><span class="cl">$ cargo build --release <span class="c1"># The `sage` exe will be in `target/release`</span>
+</span></span><span class="line"><span class="cl">$ <span class="c1"># Install it from this github clone:</span>
+</span></span><span class="line"><span class="cl">$ cargo install -f --path .
+</span></span></code></pre></div>
+
+<h3 class="relative group">Post-Install 
+    <div id="post-install" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#post-install" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Once you&rsquo;ve installed everything, you can get started with Sage by running the <code>sage</code> command! Use <code>sage -h</code> to see some basic help on the CLI!</p>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>What next?</strong> Check out the <a href="../../docs/">documentation</a>, and take a look at the <a href="../../playgrounds/playground">compiler playground</a> for some example programs!</span>
+</div>
+
+
           
           
           
@@ -719,7 +831,13 @@
   </footer>
 </article>
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   

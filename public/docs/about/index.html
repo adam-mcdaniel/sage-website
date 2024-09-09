@@ -101,7 +101,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "18"
+    "wordCount": "1291"
   }]
   </script>
 
@@ -636,7 +636,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-09-08T21:37:06-04:00">8 September 2024</time><span class="px-2 text-primary-500">&middot;</span><span>18 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="2024-09-08T21:37:06-04:00">8 September 2024</time><span class="px-2 text-primary-500">&middot;</span><span>1291 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
   
 
   
@@ -684,6 +684,25 @@
         <div class="article-content max-w-prose mb-20">
           
 
+<h2 class="relative group">Table Of Contents 
+    <div id="table-of-contents" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#table-of-contents" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ol>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#community">Community</a></li>
+<li><a href="#code-examples-and-syntax">Code Examples And Syntax</a></li>
+<li><a href="#learn-more">Learn More</a></li>
+<li><a href="#about-the-author">About The Author</a></li>
+</ol>
+
+
 <h2 class="relative group">Overview 
     <div id="overview" class="anchor"></div>
     
@@ -694,7 +713,705 @@
     </span>        
     
 </h2>
-<p>Sage is a C-like programming language with a unique blend of features from Rust and Python.</p>
+<p>Sage is a small programming language with a unique blend of features from Rust and Python. It&rsquo;s <strong>statically typed</strong>, <strong>portable</strong>, and <strong>easy-to-use</strong>.</p>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Why Sage?</strong> The Sage programming language was created as an alternative to languages like C, but with a nicer type system and development experience. Users are able to <code>print</code> out modules, functions, types. <code>enum</code>s are more powerful, and can be used for better error management.
+Immutability is by default, with enforced typechecking and mutability rules. Sage also includes a module system for organizing code.</span>
+</div>
+
+<p>Sage can be used for anything from <a href="https://github.com/adam-mcdaniel/sage-os" target="_blank">operating systems development</a>, to <a href="../../playgrounds/playground">web development</a>.</p>
+
+
+<h2 class="relative group">Community 
+    <div id="community" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#community" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Join the <a href="https://discord.gg/2GX4Jggy6d" target="_blank">Discord server</a> to chat about Sage! Let us know if you have any thoughts or comments about the language!</p>
+
+
+<h2 class="relative group">Code Examples And Syntax 
+    <div id="code-examples-and-syntax" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#code-examples-and-syntax" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Without further ado, let&rsquo;s see what Sage&rsquo;s syntax looks like!</p>
+
+
+<h4 class="relative group">Hello World! 
+    <div id="hello-world" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#hello-world" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Sage code is like Python &ndash; you can just start writing without a <code>main</code> function!</p>
+<p>To <code>print</code> something, just use <code>print</code> on whatever arguments you want!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Hello world!&#34;</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></div>
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Output:</strong><br/>
+Hello world!<br/></span>
+</div>
+
+<p><code>print</code> also works on custom data structures.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="n">println</span><span class="p">(</span><span class="s">&#34;Hello! &#34;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">7</span><span class="p">},</span><span class="w"> </span><span class="s">&#34; &#34;</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">]);</span><span class="w">
+</span></span></span></code></pre></div>
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Output:</strong><br/>
+Hello! {x=5, y=6, z=7} [1, 2, 3, 4]<br/></span>
+</div>
+
+
+
+<h4 class="relative group">Functions 
+    <div id="functions" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#functions" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>You can write functions in Sage using the <code>fun</code> keyword. Here&rsquo;s an example of the <code>gcd</code> function implemented in Sage!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="c1">// Calculate the greatest common divisor of two numbers
+</span></span></span><span class="line"><span class="cl"><span class="c1">// using Euclid&#39;s algorithm
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">fun</span><span class="w"> </span><span class="n">gcd</span><span class="p">(</span><span class="n">a</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">b</span>: <span class="nc">Int</span><span class="p">)</span>: <span class="nc">Int</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">b</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">println</span><span class="p">(</span><span class="n">gcd</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="w"> </span><span class="mi">15</span><span class="p">));</span><span class="w">
+</span></span></span></code></pre></div>
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Output:</strong><br/>
+3<br/></span>
+</div>
+
+
+
+<h4 class="relative group">Standard Library Imports 
+    <div id="standard-library-imports" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#standard-library-imports" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>You can get started with the standard library by importing some modules!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="c1">// Import some stuff!
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">from</span><span class="w"> </span><span class="n">std</span><span class="p">.</span><span class="n">fallible</span><span class="w"> </span><span class="n">import</span><span class="w"> </span><span class="nb">Option</span><span class="p">,</span><span class="w"> </span><span class="nb">Result</span><span class="p">,</span><span class="w"> </span><span class="n">panic</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">from</span><span class="w"> </span><span class="n">std</span><span class="p">.</span><span class="n">collections</span><span class="w"> </span><span class="n">import</span><span class="w"> </span><span class="nb">Vec</span><span class="p">,</span><span class="w"> </span><span class="n">HashMap</span><span class="p">,</span><span class="w"> </span><span class="n">List</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">from</span><span class="w"> </span><span class="n">std</span><span class="p">.</span><span class="n">io</span><span class="w"> </span><span class="n">import</span><span class="w"> </span><span class="o">*</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Create a vector and push stuff onto it!
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">v</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Vec</span><span class="p">.</span><span class="n">make</span><span class="o">&lt;</span><span class="n">Int</span><span class="o">&gt;</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">v</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">v</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">v</span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">v</span><span class="p">.</span><span class="n">print</span><span class="p">();</span><span class="w">
+</span></span></span></code></pre></div>
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Output:</strong><br/>
+[1, 2, 3]<br/></span>
+</div>
+
+
+
+<h4 class="relative group">Structs And Methods 
+    <div id="structs-and-methods" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#structs-and-methods" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Here&rsquo;s how we can define custom <code>struct</code> types, and imbue them with methods we can call!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="c1">// Create a structure named Point, with members `x` and `y`
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">struct</span> <span class="nc">Point</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">x</span>: <span class="nc">Int</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">y</span>: <span class="nc">Int</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">impl</span><span class="w"> </span><span class="n">Point</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// A method for creating a new point
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">    </span><span class="n">fun</span><span class="w"> </span><span class="n">new</span><span class="p">(</span><span class="n">x</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">y</span>: <span class="nc">Int</span><span class="p">)</span>: <span class="nc">Point</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="p">{</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">y</span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Shift this point by a given amount in the X
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">    </span><span class="c1">// and Y directions
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">    </span><span class="n">fun</span><span class="w"> </span><span class="n">translate</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="bp">self</span><span class="p">,</span><span class="w"> </span><span class="n">dx</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">dy</span>: <span class="nc">Int</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="bp">self</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">dx</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="bp">self</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">dy</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Create a mutable point at (4, 5)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Point</span><span class="p">.</span><span class="n">new</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Print the point
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">println</span><span class="p">(</span><span class="n">p</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Translate the X by -5, and the Y by 10
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">p</span><span class="p">.</span><span class="n">translate</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Print the translated point
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">println</span><span class="p">(</span><span class="n">p</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></div>
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Output:</strong><br/>
+{x=4, y=5}<br/>
+{x=-1, y=15}<br/></span>
+</div>
+
+
+
+<h4 class="relative group">Sum Types 
+    <div id="sum-types" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#sum-types" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Sage supports generic algebraic datatypes, and typechecks them with structural equality! This lets you define types linked-lists in a much more canonical way than most languages.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="k">enum</span> <span class="nc">List</span><span class="o">&lt;</span><span class="n">Elem</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Cons</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">data</span>: <span class="nc">Elem</span><span class="p">,</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">next</span>: <span class="kp">&amp;</span><span class="nc">List</span><span class="o">&lt;</span><span class="n">Elem</span><span class="o">&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">},</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Nil</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">Cons</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">data</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">next</span><span class="o">=</span><span class="n">new</span><span class="w"> </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">Nil</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">match</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">of</span><span class="w"> </span><span class="n">Cons</span><span class="w"> </span><span class="p">{</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">next</span><span class="p">}</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">println</span><span class="p">(</span><span class="s">&#34;l is cons with data=&#34;</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="s">&#34; and next=&#34;</span><span class="p">,</span><span class="w"> </span><span class="n">next</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">},</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">of</span><span class="w"> </span><span class="n">Nil</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">println</span><span class="p">(</span><span class="s">&#34;Got nil&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div>
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+<path fill="currentColor"  d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Output:</strong><br/>
+l is cons with data=5 and next=&amp;(38999)<br/></span>
+</div>
+
+
+
+<h4 class="relative group">Const-Generics 
+    <div id="const-generics" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#const-generics" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p>Sage&rsquo;s typesystem is also equipped to handle types with <code>const</code> parameters. This can come in handy for <strong>many</strong> use-cases. For example, this feature allows you to typecheck matrix dimensions in matrix multiplications!</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rs" data-lang="rs"><span class="line"><span class="cl"><span class="c1">// Define a constant sized matrix with a generic element type
+</span></span></span><span class="line"><span class="cl"><span class="c1">// and parameterized width and height.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">struct</span> <span class="nc">Matrix</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">Rows</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">Cols</span>: <span class="nc">Int</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">arr</span>: <span class="p">[[</span><span class="n">T</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">Cols</span><span class="p">]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">Rows</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Add some methods to our matrix
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">impl</span><span class="w"> </span><span class="n">Matrix</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">Rows</span><span class="p">,</span><span class="w"> </span><span class="n">Cols</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Create a new matrix populated with initial values
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">    </span><span class="n">fun</span><span class="w"> </span><span class="n">new</span><span class="p">(</span><span class="n">x</span>: <span class="nc">T</span><span class="p">)</span>: <span class="nc">Matrix</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">Rows</span><span class="p">,</span><span class="w"> </span><span class="n">Cols</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="p">{</span><span class="n">arr</span><span class="o">=</span><span class="p">[[</span><span class="n">x</span><span class="p">]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">Cols</span><span class="p">]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">Rows</span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Get a value from a matrix
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">    </span><span class="n">fun</span><span class="w"> </span><span class="n">get</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">,</span><span class="w"> </span><span class="n">row</span>: <span class="nc">Int</span><span class="p">,</span><span class="w"> </span><span class="n">col</span>: <span class="nc">Int</span><span class="p">)</span>: <span class="kp">&amp;</span><span class="nc">T</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="o">&amp;</span><span class="bp">self</span><span class="p">.</span><span class="n">arr</span><span class="p">[</span><span class="n">row</span><span class="p">][</span><span class="n">col</span><span class="p">];</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Multiply with another matrix
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">    </span><span class="n">fun</span><span class="w"> </span><span class="n">mul</span><span class="o">&lt;</span><span class="k">const</span><span class="w"> </span><span class="n">NewCols</span>: <span class="nc">Int</span><span class="o">&gt;</span><span class="p">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="o">&amp;</span><span class="bp">self</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">other</span>: <span class="kp">&amp;</span><span class="nc">Matrix</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">Cols</span><span class="p">,</span><span class="w"> </span><span class="n">NewCols</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">zero</span>: <span class="nc">T</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">add</span>: <span class="nc">fun</span><span class="p">(</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">T</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">T</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">mul</span>: <span class="nc">fun</span><span class="p">(</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">T</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">T</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">)</span>: <span class="nc">Matrix</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">Rows</span><span class="p">,</span><span class="w"> </span><span class="n">NewCols</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Matrix</span><span class="p">.</span><span class="n">new</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">Rows</span><span class="p">,</span><span class="w"> </span><span class="n">NewCols</span><span class="o">&gt;</span><span class="p">(</span><span class="n">zero</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">// Perform the actual matrix multiplication on the rows and cols
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">        </span><span class="c1">// This uses the naive algorithm for matrix multiplication
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">j</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">j</span><span class="o">&lt;</span><span class="n">NewCols</span><span class="p">;</span><span class="w"> </span><span class="n">j</span><span class="o">+=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">&lt;</span><span class="n">Rows</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">+=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">zero</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="k">for</span><span class="w"> </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">k</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">k</span><span class="o">&lt;</span><span class="n">Cols</span><span class="p">;</span><span class="w"> </span><span class="n">k</span><span class="o">+=</span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                    </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">add</span><span class="p">(</span><span class="n">sum</span><span class="p">,</span><span class="w"> </span><span class="n">mul</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">k</span><span class="p">],</span><span class="w"> </span><span class="n">other</span><span class="p">.</span><span class="n">arr</span><span class="p">[</span><span class="n">k</span><span class="p">][</span><span class="n">j</span><span class="p">]));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="n">result</span><span class="p">.</span><span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sum</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">result</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div>
+
+<h2 class="relative group">Virtual Machine Instruction Set 
+    <div id="virtual-machine-instruction-set" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#virtual-machine-instruction-set" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>History:</strong>
+What makes Sage special is not its frontend, however, but its backend. The backend was originally born out of a <strong>SIMD</strong>-extended Brainf$%&amp;@ compiler.</span>
+</div>
+
+<p><em>Sage&rsquo;s instruction set is tiny enough to port in an afternoon, but efficient enough to compile high level code efficiently.</em>
+The virtual machine is a simple Turing-tape based architecture, not a stack or register based virtual machine. This is one of the contributing factors to Sage&rsquo;s portability.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Instruction</th>
+          <th style="text-align: left">C Equivalent</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><code>while</code></td>
+          <td style="text-align: left"><code>while (reg[0]) {</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>if</code></td>
+          <td style="text-align: left"><code>if (reg[0]) {</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>else</code></td>
+          <td style="text-align: left"><code>} else {</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>end</code></td>
+          <td style="text-align: left"><code>}</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>set N_0, N_1, ..., N_X</code></td>
+          <td style="text-align: left"><code>reg[0] = N_0; reg[1] = N_1; ... reg[x] = N_X;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>call</code></td>
+          <td style="text-align: left"><code>funs[reg[0]]();</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>ret</code></td>
+          <td style="text-align: left"><code>return;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>load N</code></td>
+          <td style="text-align: left"><code>memcpy(reg, tape_ptr, N * sizeof(cell));</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>store N</code></td>
+          <td style="text-align: left"><code>memcpy(tape_ptr, reg, N * sizeof(cell));</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>move N</code></td>
+          <td style="text-align: left"><code>tape_ptr += N;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>where</code></td>
+          <td style="text-align: left"><code>reg[0].p = tape_ptr;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>deref</code></td>
+          <td style="text-align: left"><code>push(tape_ptr); tape_ptr = *tape_ptr;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>refer</code></td>
+          <td style="text-align: left"><code>tape_ptr = pop();</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>index N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].p += tape_ptr-&gt;i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>offset O, N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].p += O;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>swap N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) swap(reg + i, tape_ptr + i);</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>add N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i += tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>sub N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i -= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>mul N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i *= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>div N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i /= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>rem N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i %= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>or N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i ||= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>and N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i &amp;&amp;= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>not N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i = !reg[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>bitand N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i &amp;= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>bitor N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i |= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>bitxor N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i ^= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>lsh N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i &lt;&lt;= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>l-rsh N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i = (uint64_t)reg[i].i &gt;&gt; tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>a-rsh N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i &gt;&gt;= tape_ptr[i].i;</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>gez N</code></td>
+          <td style="text-align: left"><code>for (int i=0; i&lt;N; i++) reg[i].i = reg[i].i &gt;= 0;</code></td>
+      </tr>
+  </tbody>
+</table>
+
+
+<h2 class="relative group">Learn More 
+    <div id="learn-more" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#learn-more" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+  
+
+
+
+<div
+  
+    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+  >
+
+  <span
+    
+      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+    >
+
+    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+
+  </span>
+
+
+  </span>
+
+  <span
+    
+      class="dark:text-neutral-300"
+    ><strong>Documentation:</strong> First, <a href="../">take a look at the docs</a>!</span>
+</div>
+
+<p>You can read <a href="https://adam-mcdaniel.github.io/blog/compilers-for-the-future" target="_blank">my blog post</a> (~20 minute read) about the programming language to learn more about the implementation!</p>
+<p><a href="https://www.youtube.com/watch?v=QdnxjYj1pS0" target="_blank">Here&rsquo;s a 23 minute YouTube video that covers how compilers work, and delves into Sage!</a></p>
+<p>Join the <a href="https://discord.gg/rSGkM4bcdP" target="_blank">Discord server</a> to chat about Sage!</p>
+
+
+<h2 class="relative group">How do I contribute? 
+    <div id="how-do-i-contribute" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#how-do-i-contribute" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>If you want to contribute, you can open an issue or a pull request. <a href="https://github.com/adam-mcdaniel/sage/blob/main/src/targets/c.rs" target="_blank">Adding backends for other architectures is a great way to contribute!</a> We also need a VSCode syntax highlighting extension!</p>
+
+
+<h2 class="relative group">About The Author 
+    <div id="about-the-author" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#about-the-author" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p><a href="https://adam-mcdaniel.net" target="_blank">I&rsquo;m a computer science PhD student</a> at the <a href="https://www.youtube.com/watch?v=-8MlEo02u54" target="_blank">University of Tennessee, Knoxville🍊</a>. Rust is my favorite language, and <a href="https://github.com/adam-mcdaniel/oakc" target="_blank">I&rsquo;ve</a> <a href="https://github.com/adam-mcdaniel/harbor" target="_blank">written</a> <a href="https://github.com/adam-mcdaniel/tsar" target="_blank">many</a> <a href="https://github.com/adam-mcdaniel/free" target="_blank">other</a> <a href="https://github.com/adam-mcdaniel/xasm" target="_blank">compilers</a>. This is the last project I started as a teenager, and I was the only author to touch any of the code up to version <code>v0.0.2-alpha</code> (12/25/2023)! I&rsquo;m looking for work opportunities for Summer 2024 (after I finish my Masters degree), so if you&rsquo;re interested in hiring me, please reach out to me at <a href="mailto:amcdan23@vols.utk.edu">amcdan23@vols.utk.edu</a>!</p>
 
           
           
