@@ -68,12 +68,7 @@ println(a);
 let a = 5;
 ```
 {{< alert >}}
-**Output:**<br/>
-```
-error: Error at text-box:0:8:8
-  ┌─ text-box:1:9
-  │
-1 │ println(a);
-  │         ^ LIR error: symbol a not defined
-```
+**Error:**<br/>
+`1 │ println(a);`<br/>
+LIR error: symbol a not defined
 {{< /alert >}}
