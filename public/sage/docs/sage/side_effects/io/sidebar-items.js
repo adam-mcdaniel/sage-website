@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["Axis","Color","Direction","InputMode","OutputMode"],"struct":["Channel","Input","Output"]};
