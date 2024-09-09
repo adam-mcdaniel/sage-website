@@ -37,7 +37,7 @@
 [[main]]
 #  pre = "list"
  name = "Documentation"
- pageRef = "docs/"
+ pageRef = "docs/getting-started"
  weight = 40
 
 
