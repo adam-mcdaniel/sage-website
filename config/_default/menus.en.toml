@@ -17,28 +17,28 @@
 #  weight = 10
 
 [[main]]
+#  pre = "circle-info"
  name = "About"
- pre = "circle-info"
  pageRef = "docs/about"
  weight = 10
 
 [[main]]
+#  pre = "download"
  name = "Install"
- pre = "download"
  pageRef = "installs/install"
  weight = 20
 
 [[main]]
+#  pre = "code"
  name = "Playground"
  pageRef = "playgrounds/playground"
- pre = "code"
  weight = 30
 
 [[main]]
+#  pre = "list"
  name = "Documentation"
  pageRef = "docs/"
  weight = 40
- pre = "list"
 
 
 

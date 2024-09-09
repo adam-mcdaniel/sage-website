@@ -6,8 +6,28 @@
   </span>
 </div> -->
 
+Sage is a compiled language for anything from OS-dev to the web!
 
-{{< alert "lightbulb" >}}
+{{< youtubeLite id="QdnxjYj1pS0" label="Blowfish-tools demo" >}}
+
+Watch the video above about compilers, and how Sage works!
+
+<!-- |||||
+|:-:|:-:|:-:|:-:|
+|[About](docs/about)|[Install](installs/install)|[Playground](playgrounds/playground)|[Documentation](docs/)| -->
+
+<!-- Center the table -->
+
+<table>
+  <tr>
+    <td><a href="docs/about">About</a></td>
+    <td><a href="installs/install">Install</a></td>
+    <td><a href="playgrounds/playground">Playground</a></td>
+    <td><a href="docs/">Documentation</a></td>
+  </tr>
+</table>
+
+<!-- {{< alert "lightbulb" >}}
 Sage is a compiled language for anything from OS-dev to the web!
 {{< /alert >}}
 
@@ -21,7 +41,7 @@ $ cargo install --git https://github.com/adam-mcdaniel/sage
 
 {{< alert "youtube" >}}
 Watch the video above about compilers, and how Sage works!
-{{< /alert >}}
+{{< /alert >}} -->
 
 
 <!-- <div class="flex px-4 py-2 mb-8 text-base rounded-md bg-primary-100 dark:bg-primary-900">

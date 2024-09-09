@@ -9,7 +9,7 @@
     <managingEditor>youremail@example.com (🌱The Sage Programming Language🪴)</managingEditor>
     <webMaster>youremail@example.com (🌱The Sage Programming Language🪴)</webMaster>
     <copyright>© 2024 🌱The Sage Programming Language🪴</copyright>
-    <lastBuildDate>Mon, 09 Sep 2024 16:10:03 -0400</lastBuildDate><atom:link href="http://localhost:1313/sage-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Sep 2024 15:50:33 -0400</lastBuildDate><atom:link href="http://localhost:1313/sage-website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Variables And Mutability</title>
       <link>http://localhost:1313/sage-website/docs/variables/</link>
