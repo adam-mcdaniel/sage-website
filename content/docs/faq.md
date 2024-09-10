@@ -9,6 +9,10 @@ date = 2024-09-10T18:18:10-04:00
 
 Sage is a statically-typed, compiled (native) programming language focused on maximum portability -- run your code on a Flipper Zero, a Raspberry Pi, or a desktop computer with the same VM code! Even though Sage has a VM, it still can compile to native.
 
+## What's Sage's License?
+
+Sage is licensed under the **MIT license**. You can find the license in the [GitHub repository](https://github.com/adam-mcdaniel/sage).
+
 ## What languages is Sage inspired by?
 
 Sage is inspired by Rust, C, and Python. Sage's type system includes [parameterized algebraic datatypes](https://en.wikipedia.org/wiki/Generalized_algebraic_data_type), which are powerful programming constructs. Sage also provides Python-like modules, helpful functions like `print`, and it doesn't require a `main` function in order to start writing code!
