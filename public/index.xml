@@ -9,7 +9,47 @@
     <managingEditor>youremail@example.com (🌱The Sage Programming Language🪴)</managingEditor>
     <webMaster>youremail@example.com (🌱The Sage Programming Language🪴)</webMaster>
     <copyright>© 2024 🌱The Sage Programming Language🪴</copyright>
-    <lastBuildDate>Mon, 09 Sep 2024 17:03:51 -0400</lastBuildDate><atom:link href="http://localhost:1313/sage-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Sep 2024 10:59:15 -0400</lastBuildDate><atom:link href="http://localhost:1313/sage-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calling C Code</title>
+      <link>http://localhost:1313/sage-website/docs/calling-c-code/</link>
+      <pubDate>Tue, 10 Sep 2024 10:59:15 -0400</pubDate>
+      <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
+      <guid>http://localhost:1313/sage-website/docs/calling-c-code/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Methods And Associated Constants</title>
+      <link>http://localhost:1313/sage-website/docs/associated-constants/</link>
+      <pubDate>Tue, 10 Sep 2024 10:45:48 -0400</pubDate>
+      <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
+      <guid>http://localhost:1313/sage-website/docs/associated-constants/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Control Flow</title>
+      <link>http://localhost:1313/sage-website/docs/control-flow/</link>
+      <pubDate>Tue, 10 Sep 2024 10:42:38 -0400</pubDate>
+      <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
+      <guid>http://localhost:1313/sage-website/docs/control-flow/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Comments</title>
+      <link>http://localhost:1313/sage-website/docs/comments/</link>
+      <pubDate>Tue, 10 Sep 2024 10:39:51 -0400</pubDate>
+      <author>youremail@example.com (🌱The Sage Programming Language🪴)</author>
+      <guid>http://localhost:1313/sage-website/docs/comments/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Functions</title>
       <link>http://localhost:1313/sage-website/docs/functions/</link>
