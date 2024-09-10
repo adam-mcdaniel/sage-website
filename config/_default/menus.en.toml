@@ -44,7 +44,7 @@
 [[main]]
  parent = "About"
  name = "Examples"
- url = "https://github.com/adam-mcdaniel/sage/tree/main/examples/frontend"
+ url = "https://github.com/adam-mcdaniel/sage/tree/main/examples/"
  weight = 16
 
 [[main]]
