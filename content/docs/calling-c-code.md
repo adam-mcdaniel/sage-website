@@ -25,7 +25,7 @@ memcpy(&mut b, &a, 5);
 ```
 
 {{< alert "lightbulb" >}}
-**About Sage:** The [web-demo](../../playgrounds/playgound) of Sage provides only two `extern` functions in the backend: `alert` and `eval`. You can use `eval` to run arbitrary JavaScript code, so it's still complete to interoperate with other code in the browser.
+**About Sage:** The [web-demo](../../playgrounds/playground) of Sage provides only two `extern` functions in the backend: `alert` and `eval`. You can use `eval` to run arbitrary JavaScript code, so it's still complete to interoperate with other code in the browser.
 {{< /alert >}}
 
 ## Writing C Code For Sage
