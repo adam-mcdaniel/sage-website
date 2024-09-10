@@ -21,7 +21,7 @@ disableImageOptimization = false
 # disableTextInHeader = false
 # backgroundImageWidth = 600
 
-defaultBackgroundImage = "rain.svg" # used as default for background images 
+# defaultBackgroundImage = "rain.svg" # used as default for background images 
 # defaultBackgroundImage = "rain.svg" # used as default for background images 
 # defaultFeaturedImage = "featured.svg" # used as default for featured images in all articles
 
