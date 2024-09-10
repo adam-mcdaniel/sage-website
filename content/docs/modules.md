@@ -100,6 +100,7 @@ println(gcd(12, 18)); // Output: 6
 **Output:**<br/>
 6
 {{</alert>}}
+<br/>
 
 # Renaming Imported Items
 
