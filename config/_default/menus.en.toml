@@ -24,6 +24,12 @@
 
 [[main]]
  parent = "About"
+ name = "FAQ"
+ pageRef = "docs/faq"
+ weight = 12
+
+[[main]]
+ parent = "About"
  name = "Overview"
  pageRef = "docs/about"
  weight = 13
