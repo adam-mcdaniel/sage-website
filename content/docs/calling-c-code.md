@@ -91,6 +91,9 @@ void __add() {
 ```
 
 {{< alert "code" >}}
+`sage -tc main.sg`<br/>
+`gcc out.c -o main`<br/>
+`./main`<br/>
 **Output:**<br/>
 7
 {{< /alert >}}
@@ -144,6 +147,9 @@ void __memcpy() {
 ```
 
 {{< alert "code" >}}
+`sage -tc main.sg`<br/>
+`gcc out.c -o main`<br/>
+`./main`<br/>
 **Output:**<br/>
 [1, 2, 3, 4, 5]
 {{< /alert >}}
