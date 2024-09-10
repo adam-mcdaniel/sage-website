@@ -7,10 +7,11 @@ series_order = 1
 
 ## Table Of Contents
 1. [Overview](#overview)
-2. [Community](#community)
-3. [Code Examples And Syntax](#code-examples-and-syntax)
-4. [Learn More](#learn-more)
-5. [About The Author](#about-the-author)
+2. [What Can I Use Sage For?](#what-can-i-use-sage-for)
+3. [Community](#community)
+4. [Code Examples And Syntax](#code-examples-and-syntax)
+5. [Learn More](#learn-more)
+6. [About The Author](#about-the-author)
 
 ## Overview
 
@@ -22,6 +23,28 @@ Immutability is by default, with enforced typechecking and mutability rules. Sag
 {{< /alert >}}
 
 Sage can be used for anything from [operating systems development](https://github.com/adam-mcdaniel/sage-os), to [web development](../../playgrounds/playground).
+
+
+## What Can I Use Sage For?
+
+Sage [can be used in the web](../../playgrounds/playground), or for low-level systems programming. [Here's an operating system with its entire userspace written in Sage!](https://github.com/adam-mcdaniel/sage-os)
+
+### A Shell Written In Sage For Sage-OS
+
+Here's a shell written in Sage!
+
+![Sage OS Shell #1](shell1.png)
+
+It lets users manipulate the filesystem, run programs, and interact with the operating system.
+
+![Sage OS Shell #2](shell2.png)
+
+### A PowerPoint App Written In Sage For Sage-OS
+
+Here's a PowerPoint app written in Sage for Sage-OS.
+It loads images from the filesystem and uses the device drivers to receive keyboard commands and render the images to the screen!
+
+![Sage OS](presentation.png)
 
 ## Community
 
