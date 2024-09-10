@@ -17,12 +17,12 @@ replyByEmail = false
 # mainSections = ["section1", "section2"]
 # robots = ""
 
-disableImageOptimization = true
+disableImageOptimization = false
 # disableTextInHeader = false
-backgroundImageWidth = 1200
+# backgroundImageWidth = 600
 
-# defaultBackgroundImage = "fireflies.svg" # used as default for background images 
-# defaultBackgroundImage = "lavalamp.svg" # used as default for background images 
+defaultBackgroundImage = "rain.svg" # used as default for background images 
+# defaultBackgroundImage = "rain.svg" # used as default for background images 
 # defaultFeaturedImage = "featured.svg" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = true
