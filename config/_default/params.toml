@@ -19,7 +19,7 @@ replyByEmail = false
 
 disableImageOptimization = false
 # disableTextInHeader = false
-# backgroundImageWidth = 1200
+backgroundImageWidth = 1200
 
 # defaultBackgroundImage = "fireflies.svg" # used as default for background images 
 defaultBackgroundImage = "lavalamp.svg" # used as default for background images 
