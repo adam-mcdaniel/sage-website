@@ -41,17 +41,24 @@
  weight = 14
 
 [[main]]
-#  pre = "code"
-#  parent = "About"
- name = "Playground"
- pageRef = "playgrounds/playground"
- weight = 30
+ parent = "About"
+ name = "Author"
+ url = "https://adam-mcdaniel.github.io/"
+ weight = 15
 
 [[main]]
  parent = "About"
  name = "Examples"
  url = "https://github.com/adam-mcdaniel/sage/tree/main/examples/"
  weight = 16
+ 
+[[main]]
+#  pre = "code"
+#  parent = "About"
+ name = "Playground"
+ pageRef = "playgrounds/playground"
+ weight = 30
+
 
 [[main]]
 #  pre = "download"
