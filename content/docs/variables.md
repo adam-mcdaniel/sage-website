@@ -73,3 +73,17 @@ let a = 5;
 LIR error: symbol a not defined
 {{< /alert >}}
 
+Scopes may also be created with `{}` blocks.
+
+```rs
+{
+    let a = 5;
+    println(a);
+}
+println(a);
+```
+{{< alert >}}
+**Error:**<br/>
+`5 │ println(a);`<br/>
+LIR error: symbol a not defined
+{{< /alert >}}
