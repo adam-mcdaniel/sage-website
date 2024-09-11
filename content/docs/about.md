@@ -18,7 +18,7 @@ series_order = 1
 Sage is a small programming language with a unique blend of features from Rust and Python. It's **statically typed**, **portable**, and **easy-to-use**.
 
 {{< alert "lightbulb" >}}
-**Why Sage?** The Sage programming language was created as an alternative to languages like C, but with a nicer type system and development experience. Users are able to `print` out modules, functions, types. `enum`s are more powerful, and can be used for better error management.
+**Why Sage?** The Sage programming language was created as an alternative to languages like C, but with a nicer type system and development experience. Users are able to `print` out functions, types, and any runtime value. `enum`s are more powerful, and can be used for better error management.
 Immutability is by default, with enforced typechecking and mutability rules. Sage also includes a module system for organizing code.
 {{< /alert >}}
 
