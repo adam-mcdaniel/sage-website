@@ -6,7 +6,7 @@ series_order = 13
 +++
 
 {{< alert >}}
-**Note:** Sage is a systems programming language with *manual memory management*. This means that the compiler does not automatically insert `free` or `delete` calls for you.
+**Note:** Sage is a systems programming language with *manual memory management*. This means that the compiler does not automatically insert `free` calls for you.
 {{< /alert >}}
 
 ## Allocating Memory
