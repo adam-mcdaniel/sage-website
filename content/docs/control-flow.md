@@ -81,6 +81,59 @@ while i < 5 {
 4<br/>
 {{< /alert >}}
 
-## Break and Continue
+## Match Statements
 
-`break` and `continue` are not supported, but might be added in future releases.
+Match statements in Sage are similar to `switch` statements in C, but more powerful. They can be used to destructure data from `struct`s, `enum`s, tuples, and match against constant expressions.
+
+```rs
+enum Direction {
+    North,
+    South,
+    East,
+    West
+}
+
+let dir = Direction of North;
+match dir {
+    of North => println("Going North!"),
+    of South => println("Going South!"),
+    of East => println("Going East!"),
+    of West => println("Going West!")
+}
+
+let point = {x=0, y=1};
+match point {
+    {x=0, y=0} => println("At the origin!"),
+    {x=0, y} => println("On the y-axis at (0, ", y, ")"),
+    {x, y=0} => println("On the x-axis at (", x, ", 0)"),
+    _ => println("Somewhere else!")
+}
+```
+{{< alert "code" >}}
+**Output:**<br/>
+Going North!<br/>
+At the origin!<br/>
+{{< /alert >}}
+
+## If Let Statements
+
+If let statements are a shorthand for matching against an enum and binding the value to a variable.
+
+```rs
+enum Option<T> {
+    Some(T),
+    Nothing
+}
+
+let o = Option<Int> of Some(5);
+
+if let of Some(x) = o {
+    println("The value is ", x);
+} else {
+    println("The value is Nothing");
+}
+```
+{{< alert "code" >}}
+**Output:**<br/>
+The value is 5<br/>
+{{< /alert >}}
