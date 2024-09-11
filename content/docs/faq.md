@@ -1,6 +1,6 @@
 +++
 title = 'FAQ'
-date = 2024-09-10T18:18:10-04:00
+date = 2024-09-08T21:37:06-03:00
 +++
 
 # Frequently Asked Questions
