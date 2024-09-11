@@ -101,7 +101,7 @@ match dir {
     of West => println("Going West!")
 }
 
-let point = {x=0, y=1};
+let point = {x=0, y=0};
 match point {
     {x=0, y=0} => println("At the origin!"),
     {x=0, y} => println("On the y-axis at (0, ", y, ")"),
