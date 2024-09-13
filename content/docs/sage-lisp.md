@@ -46,5 +46,10 @@ You can write entire programs that compile and run at compile-time -- the possib
     (println (fact 5))
 }]
 ```
+{{<alert "code">}}
+**Output:**<br/>
+Why not just use Sage as a Sage-Lisp interpreter?<br/>
+120
+{{</alert>}}
 
 You can learn more about Sage-Lisp at the repository [here](https://github.com/adam-mcdaniel/sage-lisp). 
