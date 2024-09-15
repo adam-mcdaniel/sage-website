@@ -1,3 +1,4 @@
+cargo update;
 rm -Rf public;
 hugo --minify;
 git clone https://github.com/adam-mcdaniel/sage;
