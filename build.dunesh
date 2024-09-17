@@ -8,3 +8,5 @@ use build-docs.dunesh;
 cp -R docs ../public/sage;
 cd ..;
 cp -R public docs;
+
+# gource --seconds-per-day 0.024 --auto-skip-seconds 0.024 -1280x720 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 sage-history.mp4

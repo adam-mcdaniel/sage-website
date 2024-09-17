@@ -24,6 +24,19 @@ Immutability is by default, with enforced typechecking and mutability rules. Sag
 
 Sage can be used for anything from [operating systems development](https://github.com/adam-mcdaniel/sage-os), to [web development](../../playgrounds/playground).
 
+## Sage's History
+
+Check out the video below to learn more about the history of Sage's development! It visualizes all the modifications made to the compiler since its creation. Sage began in 2022, and it's come a long way since then!
+
+<video width="100%" controls>
+  <source src="../../sage-history.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+{{< alert "lightbulb" >}}
+**History:**
+Sage was originally born out of a **SIMD**-extended Brainf$%&@ compiler, before it was developed into a full-fledged programming language.
+{{< /alert >}}
 
 ## What Can I Use Sage For?
 
@@ -245,11 +258,6 @@ impl Matrix<T, Rows, Cols> {
 ```
 
 ## Virtual Machine Instruction Set
-
-{{< alert "lightbulb" >}}
-**History:**
-What makes Sage special is not its frontend, however, but its backend. The backend was originally born out of a **SIMD**-extended Brainf$%&@ compiler.
-{{< /alert >}}
 
 *Sage's instruction set is tiny enough to port in an afternoon, but efficient enough to compile high level code efficiently.*
 The virtual machine is a simple Turing-tape based architecture, not a stack or register based virtual machine. This is one of the contributing factors to Sage's portability.

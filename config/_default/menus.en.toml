@@ -36,21 +36,27 @@
 
 [[main]]
  parent = "About"
+ name = "History"
+ url = "/docs/about/#sages-history"
+ weight = 14
+
+[[main]]
+ parent = "About"
  name = "Community"
  pageRef = "docs/community"
- weight = 14
+ weight = 15
 
 [[main]]
  parent = "About"
  name = "Author"
  url = "https://adam-mcdaniel.github.io/"
- weight = 15
+ weight = 16
 
 [[main]]
  parent = "About"
  name = "Examples"
  url = "https://github.com/adam-mcdaniel/sage/tree/main/examples/"
- weight = 16
+ weight = 17
  
 [[main]]
 #  pre = "code"
