@@ -7,11 +7,12 @@ series_order = 1
 
 ## Table Of Contents
 1. [Overview](#overview)
-2. [What Can I Use Sage For?](#what-can-i-use-sage-for)
-3. [Community](#community)
-4. [Code Examples And Syntax](#code-examples-and-syntax)
-5. [Learn More](#learn-more)
-6. [About The Author](#about-the-author)
+2. [Sage's History](#sages-history)
+3. [What Can I Use Sage For?](#what-can-i-use-sage-for)
+4. [Community](#community)
+5. [Code Examples And Syntax](#code-examples-and-syntax)
+6. [Learn More](#learn-more)
+7. [About The Author](#about-the-author)
 
 ## Overview
 
