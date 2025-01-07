@@ -5,7 +5,7 @@ date = 2024-09-08T21:01:05-04:00
 
 
 {{< alert >}}
-**Pre-installation:** You'll the [Rust programming language](https://www.rust-lang.org/) to build the compiler from source. **If you're on Windows**, then [you'll need to download and install the MSVC toolchain](https://visualstudio.microsoft.com/es/vs/features/cplusplus/) prior to building everything.
+**Pre-installation:** You'll need the [Rust programming language](https://www.rust-lang.org/) to build the compiler from source. **If you're on Windows**, then [you'll need to download and install the MSVC toolchain](https://visualstudio.microsoft.com/es/vs/features/cplusplus/) prior to building everything.
 {{< /alert >}}
 
 Once you've installed Rust, and you can use the `cargo` package manager, run the following to install Sage.
